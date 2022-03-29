@@ -70,7 +70,6 @@ body {
 
 .one{
     background-color: red;
-    width: 30rem;
     height: 5rem;
 }
 .two{
@@ -82,4 +81,9 @@ body {
 }
 .four{
     background-color: pink;
+}
+
+ul {
+    overflow-y: scroll;
+    height: 100%;
 }
