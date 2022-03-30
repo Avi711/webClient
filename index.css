@@ -144,7 +144,7 @@ ul {
  border: 1px solid black;
 }
 .user-image{
-    margin-right: 35px;
+    margin-right: 30px;
     margin-left: 8px;
     margin-top: 22px;
     height: 40px;
@@ -185,5 +185,12 @@ ul {
     width :5rem;
 }
 .UserName-title{
+    padding-left: 0.4rem;
+    position: absolute;
+    padding-top: 1.7rem;
     text-align: center;
-}
+    vertical-align: middle;
+  }
+  .add-chat-button{
+      text-align: right;
+  }
