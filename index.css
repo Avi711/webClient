@@ -1,6 +1,7 @@
 body {
     background-color: rgb(228, 228, 228);
     background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--WAKqnINn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/tw0nawnvo0zpgm5nx4fp.png");
+    font-family: Arial;
 }
 
 .background{
@@ -69,18 +70,24 @@ body {
 
 
 .one{
-    background-color: red;
+    background-color:'#f0f2f5';
     height: 5rem;
+    
 }
 .two{
-    background-color: green;
+    background-color:'#f0f2f5';
+    
 }
 .three{
     background-color: white;
     height: 50rem;
+    border: 1px solid '#f0f2f5';
 }
 .four{
-    background-color: pink;
+    background-color: white;
+    border: 1px solid '#f0f2f5';
+    
+    
 }
 
 ul {
@@ -130,11 +137,20 @@ ul {
 }
 
 .profile-image{
- margin-top: 7px;
- height: 30px;
- width: 30px;
-}
 
+ margin-top: 7px;
+ height: 40px;
+ width: 40px;
+ border: 1px solid black;
+}
+.user-image{
+    margin-right: 35px;
+    margin-left: 8px;
+    margin-top: 22px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
 .contacts{
  background-color: #ffffff;
  min-height: 600px;
@@ -162,4 +178,12 @@ ul {
  background-color: #F0F0F0;
 }
 
-
+.time{
+    text-align :right ;
+}
+.contact-photo-width{
+    width :5rem;
+}
+.UserName-title{
+    text-align: center;
+}
