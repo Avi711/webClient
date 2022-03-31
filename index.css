@@ -70,22 +70,25 @@ body {
 
 
 .one{
-    background-color:'#f0f2f5';
+    background-color:#F1F1F1;
     height: 5rem;
+    border-top-left-radius: 1rem;
     
 }
 .two{
-    background-color:'#f0f2f5';
-    
+    background-color:#F1F1F1;
+    border-top-right-radius: 1rem;
 }
 .three{
     background-color: white;
     height: 50rem;
     border: 1px solid '#f0f2f5';
+    border-bottom-left-radius: 1rem;
 }
 .four{
     background-color: white;
     border: 1px solid '#f0f2f5';
+    border-bottom-right-radius: 1rem;
     
     
 }
@@ -175,7 +178,9 @@ ul {
 }
 
 .message-box{
- background-color: #F0F0F0;
+margin-top: 97.7%;
+ background-color: #F1F1F1;
+ border-bottom-right-radius: 1rem 
 }
 
 .time{
@@ -192,5 +197,22 @@ ul {
     vertical-align: middle;
   }
   .add-chat-button{
-      text-align: right;
+    float: right;
+    margin-top : 1.5rem;
+    margin-right: 0.5rem;
+
   }
+  .button-solid {
+    border: none;
+    
+    
+}
+button-solid:focus {
+    border: none;
+    outline: none;
+    width: 20px;
+    height: 20px;
+}
+.form-control{
+    width: 100%;
+}
